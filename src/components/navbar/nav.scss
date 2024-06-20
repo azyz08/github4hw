@@ -1,0 +1,13 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    ul{
+        gap: 20px;
+        display: flex;
+    }
+    h1{
+        color:#111B47;        ;
+    }
+}

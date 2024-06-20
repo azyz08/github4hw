@@ -1,12 +1,51 @@
 import './App.scss'
 import Btn from './components/btn'
+import { Navbar } from './components/navbar/nav'
 
 function App() {
 
   return (
     <>
-      <h1>Abduxabir</h1>
-
+    <Navbar/>
+    <div className="Card">
+      <div className="bir">
+        <h1>Introduce Your Product Quickly & Effectively</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 
+        </p>
+        <p>mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+        <div className="el">        
+          <Btn/><button className='ei'>Learn More</button>
+        </div>
+      </div>
+      <div className="ikki">
+        <img src="./od.png" alt="" />
+      </div>
+    </div>
+    <div className="Card">
+      <div className="bir">
+        <h1>Introduce Your Product Quickly & Effectively</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 
+        </p>
+        <p>mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+        <div className="el">        
+        <div className="chu">
+        <i class="fa-regular fa-object-group"></i>
+        <br />
+          <span>Title Goes Here</span>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+        </div>
+        <div className="chu">
+        <i class="fa-regular fa-object-group"></i>
+        <br />
+          <span>Title Goes Here</span>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+        </div>
+        </div>
+      </div>
+      <div className="ikki">
+        <img src="./od.png" alt="" />
+      </div>
+    </div>
 
 
       <div className="light">
