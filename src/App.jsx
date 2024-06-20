@@ -4,10 +4,10 @@ function App() {
 
   return (
     <>
-      <h1>Azizbek</h1>
-
-
       <h1>Abduxabir</h1>
+
+
+      <h1>Azizbek</h1>
     </>
   )
 }
