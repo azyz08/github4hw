@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <Navbar/>
-    <div className="Card">
+    <div className="Card card1">
       <div className="bir">
         <h1>Introduce Your Product Quickly & Effectively</h1>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 
@@ -27,7 +27,7 @@ function App() {
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 
         </p>
         <p>mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
-        <div className="el">        
+        <div className="el el2">
         <div className="chu">
         <i class="fa-regular fa-object-group"></i>
         <br />
