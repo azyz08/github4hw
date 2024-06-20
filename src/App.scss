@@ -512,8 +512,15 @@
             align-items: center;
             justify-content: space-between;
             width: 100%;
-            flex-direction: column;
             gap: 20px;
+
+            h1 {
+                font-size: 23px;
+            }
+
+            button {
+                padding: 9px 20px;
+            }
 
             p {
                 font-size: 14px;
@@ -525,10 +532,9 @@
         .fb {
             padding-top: 25px;
             border-top: 1px solid grey;
+            flex-direction: column;
 
             ul {
-                justify-content: space-between;
-                width: 100%;
                 display: flex;
                 gap: 15px;
                 align-items: center;
